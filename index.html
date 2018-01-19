@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>shooting game</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./image/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- js  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./script/timer.js"></script>
+  <script src="./script/game.js"></script>
+  <link rel="shortcut icon" href="">
+</head>
+<body>
+  <header>
+    <h1 class="wrap">SHOOTING <br class="sp">GAME</h1>
+  </header>
+  <main>
+    <canvas class="game" width="300" height="400">
+    </canvas>
+  </main>
+  <section>
+    <div class="wrap">
+      <ul>
+        <li>得点：<spna id="point">0</span></li>
+        <li>最高得点：<spna id="past">0</span></li>
+        <li class="timer" data-minutes-left="1">
+          00:05:00
+        </li>
+      </ul>
+      <button id="restart"><span class="btn"><a href="./index.html">RESTART</a></span></button>
+    </div>
+  </section>
+  <footer>
+    <p class="wrap">LET'S ENJOY♪</p>
+  </footer>
+</body>
+</html>
